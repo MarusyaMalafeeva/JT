@@ -1,0 +1,123 @@
+/* Стиль заголовков */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Минимальная высота 100% высоты окна */
+}
+.container {
+  color: #000000;
+  font-weight: lighter;
+  flex: 1;
+}
+
+h1 {
+  color: #a12626; /* Цвет заголовков */
+  font-family: "Cormorant Garamond";
+  text-align: left; /* Выравнивание по центру */
+  text-transform: uppercase; /* Преобразование текста в верхний регистр */
+}
+
+h3 {
+  text-align: left; /* Центрируем заголовки */
+  color: #000000; /* Цвет заголовков */
+  font-family: "Cormorant Garamond";
+}
+p {
+  color: #000000;
+  margin: 20px;
+  bottom: 40;
+}
+form {
+  background: #fff; /* Белый фон для формы */
+  padding: 20px; /* Внутренние отступы */
+  border: 1px solid #9c4242; /* Обводка вокруг полей ввода */
+  border-radius: 20px; /* Закругленные углы */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для формы */
+  margin: 20px auto; /* Центрируем форму */
+  max-width: 100%; /* Максимальная ширина формы */
+}
+
+form input {
+  width: 100%; /* Ширина полей ввода */
+  padding: 10px;
+  margin-bottom: 10px; /* Отступы между полями ввода */
+  border: 1px solid #9c4242; /* Обводка вокруг полей ввода */
+  border-radius: 20px; /* Закругленные углы */
+}
+
+.btn.btn-primary {
+  background: #9c4242; /* Цвет кнопки */
+  color: white;
+  font-family: "Cormorant Garamond";
+  font-size: 2.5ch;
+  border: none;
+  padding: 0, 15px;
+  border-radius: 20px;
+}
+/*Подвал*/
+footer {
+  background-color: #282727;
+  padding: 30px 0;
+  text-align: center;
+}
+.footer-text {
+  color: white;
+  font-family: "Cormorant Garamond";
+  font-size: 2ch;
+}
+
+/* Стили для кнопки "К началу страницы" */
+
+.navbar-brand {
+  text-decoration: none;
+  font-family: "Cormorant Garamond";
+  color: #fff;
+  padding: 40px 40px;
+  background-color: #9c4242;
+  border-radius: 20px;
+}
+.fixed-bottom {
+  padding: 70px;
+  border-radius: 20px;
+}
+
+.navbar-brand:hover {
+  color: rgb(255, 255, 255);
+  background-color: #5c1919;
+  font-size: 2ch;
+  transition: 0.3s;
+}
+/* Картинки в начале */
+.card-img-top {
+  border-radius: 20px;
+}
+.card-title {
+  font-family: "Cormorant Garamond";
+  font-size: 3ch;
+  padding: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-family: "Cormorant Garamond";
+  color: #a12626;
+  font-size: 2.5ch;
+  padding: 20px;
+}
+.link:hover {
+  color: #5c1919;
+  font-size: 2.7ch;
+  transition: 0.3s;
+}
+img {
+  border-radius: 20px;
+}
+
+.d-flex.flex-row.justify-content-around.flex-wrap.bg-light {
+  border-radius: 20px;
+}
+.card-img {
+  border-radius: 20px;
+  height: 200px;
+}
